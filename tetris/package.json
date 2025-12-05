@@ -1,0 +1,16 @@
+{
+  "name": "tetris-game",
+  "version": "1.0.0",
+  "description": "Tetris game implementation",
+  "main": "src/tetromino.js",
+  "scripts": {
+    "test": "jest",
+    "test:verbose": "jest --verbose"
+  },
+  "keywords": ["tetris", "game"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
