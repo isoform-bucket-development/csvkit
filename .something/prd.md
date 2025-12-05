@@ -34,7 +34,7 @@ Develop a fully functional Tetris game that implements the classic gameplay mech
 | REQ-4 | Allow player to move tetrominoes left and right | Must |
 | REQ-5 | Allow player to rotate tetrominoes clockwise | Must |
 | REQ-6 | Allow player to accelerate tetromino descent (soft drop) | Must |
-| REQ-7 | Allow player to instantly drop tetromino to bottom (hard drop) | Should |
+| REQ-7 | Allow player to instantly drop tetromino to bottom (hard drop) | Must |
 | REQ-8 | Detect and clear completed horizontal lines | Must |
 | REQ-9 | Award points for clearing lines (more points for multiple lines) | Must |
 | REQ-10 | Track and display current score | Must |
@@ -311,7 +311,7 @@ graph TB
 - When I press the spacebar
 - Then the piece instantly moves to the lowest valid position (hard drop)
 
-**Priority**: Must/Should
+**Priority**: Must
 **Related Requirements**: REQ-6, REQ-7
 
 ---
